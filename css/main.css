@@ -86,6 +86,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /********* BASE HEADER - FOOTER STYLES ***********/
 
 header,
@@ -104,21 +109,45 @@ header .content-wrapper {
     flex-flow: row wrap;
 }
 
+header {
+    padding: 15px 0;
+    margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+}
+
 header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 
 }
 
 /**** FOOTER ****/
 
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
 
 footer .social-icons {
     display: flex;
@@ -130,7 +159,10 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+footer .copyright {
+  margin: 20px 0;
 }
 
 /********** MOBILE STYLES - HOMEPAGE **********/
@@ -155,17 +187,29 @@ aside {
 /*FEATURES AREA */
 
 .features {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.features h2 {
+    margin-top: 60px;
 }
 
 .features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+.features article {
+    width: 60%;
+    margin: 30px 0;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* REVIEWS AREA */
@@ -174,7 +218,16 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
+}
 
+.reviews h2 {
+  margin-bottom: 35px;
+}
+
+.reviews h3 {
+  margin: 20px 0;
+  width: 55%;
 }
 
 /*-----------------------------------------------------------
@@ -196,6 +249,10 @@ aside {
   flex-flow: row wrap;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 /*-----------------------------------------------------------
 
 /*********** MOBILE STYLES - FAQ PAGE ************/
@@ -205,7 +262,6 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .faq .content-wrapper {
@@ -213,6 +269,15 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
