@@ -101,7 +101,7 @@ body {
 
 ul,
 ol {
-  list-style-type: none;
+  list-style: none;
 }
 
 a {
@@ -572,6 +572,7 @@ input[type=button] {
 
   footer .copyright {
     width: 100%;
+    text-align: center;
 }
 /*============================================================
     ABOUT PAGE - TABLET
