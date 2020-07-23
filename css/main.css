@@ -275,6 +275,7 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  margin: 0;
 }
 
 /* ASIDE AREA */
@@ -755,6 +756,7 @@ footer .social-icons {
 
   .content-wrapper {
     max-width: 960px;
+    margin: 50px 0;
   }
 
   h2 {
